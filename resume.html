@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en" data-lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Resume – Ekaterina Selivanova</title>
+<meta name="description" content="Resume of Ekaterina Selivanova, Senior Product Designer based in Berlin. Available in English and German.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Instrument+Sans:wght@400;500;600;700&display=swap">
+<style>
+:root{--paper:#F7F4EE;--ink:#1d1233;--muted:#6a6280;--line:#ddd7ca;--accent:#5127B5;--dot:#B49AFF;--f-display:"Bricolage Grotesque","Inter Display","Helvetica Neue",Arial,sans-serif;--f-body:"Instrument Sans",Inter,system-ui,-apple-system,"Segoe UI",sans-serif;--gutter:clamp(20px,4vw,56px);color-scheme:light}
+@media(prefers-color-scheme:dark){:root{--paper:#150e27;--ink:#f7f4ee;--muted:#a79fbd;--line:#2d2347;--accent:#B49AFF;--dot:#5127B5;color-scheme:dark}}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 16px/1.55 var(--f-body);-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:4px}
+.bar{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--paper) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.bar .in{max-width:1100px;margin:0 auto;padding:0 var(--gutter);min-height:64px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.bar .back{font-size:15px;color:var(--muted)}.bar .back:hover{color:var(--ink)}
+.bar .tools{display:flex;align-items:center;gap:12px}
+.sw{display:inline-flex;border:1px solid var(--line);border-radius:99px;padding:3px}
+.sw button{border:0;background:transparent;color:var(--muted);font:500 14px/1 var(--f-body);padding:9px 16px;border-radius:99px;cursor:pointer}
+.sw button[aria-pressed="true"]{background:var(--accent);color:var(--paper)}
+.dl{display:inline-flex;align-items:center;gap:8px;background:var(--ink);color:var(--paper);border-radius:99px;padding:12px 20px;font:500 14px/1 var(--f-body)}
+.dl:hover{color:var(--paper);opacity:.88}
+.wrap{max-width:1100px;margin:0 auto;padding:clamp(32px,5vw,64px) var(--gutter) clamp(64px,8vw,120px)}
+html[data-lang="en"] .sheet[lang="de"],html[data-lang="de"] .sheet[lang="en"]{display:none}
+.top h1{margin:0;font:500 clamp(40px,6.4vw,72px)/1.02 var(--f-display);letter-spacing:-.035em;color:var(--accent)}
+.sub{margin:14px 0 0;display:flex;flex-wrap:wrap;gap:4px 14px;align-items:baseline;font-size:17px}
+.sub b{font:500 clamp(20px,2vw,24px)/1.2 var(--f-display)}.sub span{color:var(--muted);font-size:14px}
+.r{display:grid;grid-template-columns:150px 1fr;gap:12px 32px;padding:clamp(20px,2.6vw,32px) 0;border-top:1px solid var(--line)}
+.top+.r{margin-top:clamp(24px,3vw,40px);border-top:1px solid var(--ink)}
+.r>h2{margin:0;font:400 15px/1.4 var(--f-body);color:var(--ink)}
+.contact dl{margin:0;display:grid;grid-template-columns:repeat(3,auto);gap:12px 32px;justify-content:start}
+dt{font-size:12px;color:var(--muted)}dd{margin:0;font-size:15px}
+.prof{max-width:72ch}.prof p{margin:0 0 .7em}.prof p:first-child{font:400 clamp(20px,2vw,24px)/1.3 var(--f-display);letter-spacing:-.01em;margin-bottom:.6em}
+.job{display:grid;grid-template-columns:150px 1fr;gap:12px 32px;align-items:start;padding:0}
+.r.exp{display:block}.r.exp>h2{margin-bottom:8px}
+.jobs .job{margin-top:clamp(20px,2.6vw,32px);padding-top:clamp(20px,2.6vw,32px);border-top:1px solid var(--line)}
+.jobs .job:first-child{margin-top:12px;padding-top:0;border-top:0}
+.job .when small{display:block;margin-top:10px;font-size:13px;color:var(--muted)}
+.pill{display:inline-block;border:1px solid var(--line);border-radius:99px;padding:3px 12px;font-size:12.5px;color:var(--muted);white-space:nowrap}
+.job h3{margin:0;font:400 clamp(22px,2.2vw,26px)/1.2 var(--f-display);letter-spacing:-.01em}
+.rl{margin:6px 0 10px;font-size:14px}.rl span{color:var(--muted)}
+.job ul{margin:0;padding:0;list-style:none}
+.job li{position:relative;padding-left:20px;margin:0 0 9px;font-size:15px;line-height:1.5}
+.job li::before{content:"";position:absolute;left:3px;top:.62em;width:6px;height:6px;border-radius:50%;background:var(--dot)}
+.job li b{font-weight:600}
+.sk,.ed{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+
+.sk .n{display:block;font-size:12px;color:var(--accent)}
+.sk h4,.ed h4{margin:0 0 12px;font:400 19px/1.25 var(--f-display)}
+.sk ul{margin:0;padding:0;list-style:none;color:var(--muted);font-size:14.5px}.sk li{padding:3px 0}
+.ed h4{margin-top:0}
+.ed p{margin:0;color:var(--muted);font-size:14.5px}.ed .y{margin-top:6px}
+.lg{display:flex;flex-wrap:wrap;gap:8px}.lg .pill{color:var(--muted);font-size:14px;padding:5px 14px}.lg b{font-weight:500;color:var(--ink)}
+@media screen and (max-width:760px){
+ .r,.job{grid-template-columns:1fr}
+ .contact dl{grid-template-columns:1fr}
+ .sk,.ed{grid-template-columns:1fr}
+ .job .when{display:flex;align-items:center;gap:12px}.job .when small{margin:0}
+}
+@media print{
+ @page{size:A4;margin:13mm 13mm 15mm}
+ :root{--paper:#fff;--ink:#1d1233;--muted:#6a6280;--line:#ddd7ca;--accent:#5127B5;--dot:#B49AFF}
+ body{font-size:9pt;line-height:1.36;background:#fff;color:#1d1233}
+ .bar{display:none}.wrap{max-width:none;padding:0}
+ .top h1{font-size:30pt}.sub b{font-size:12.5pt}.sub span{font-size:9pt}
+ .r{grid-template-columns:30mm 1fr;gap:6px 6mm;padding:8pt 0;break-inside:avoid}
+ .r.exp{display:block;break-inside:auto}
+ .job{grid-template-columns:30mm 1fr;gap:6px 6mm;break-inside:avoid}
+ .jobs .job{margin-top:7pt;padding-top:7pt}
+ .job h3{font-size:13pt}.job li{font-size:8.6pt;margin-bottom:3pt}.rl{font-size:8.6pt;margin:3pt 0 6pt}
+ .pill{font-size:7.6pt;padding:1.5pt 7pt}.job .when small{font-size:7.8pt;margin-top:6pt}
+ .prof p:first-child{font-size:12pt}.r>h2{font-size:9pt}dd{font-size:8.8pt}dt{font-size:7.4pt}
+ .sk h4,.ed h4{font-size:10.6pt;margin-bottom:6pt}.sk ul,.ed p{font-size:8.6pt}.sk li{padding:1.5pt 0}
+ .lg .pill{font-size:8.4pt}
+ a{color:inherit!important}
+}
+</style>
+</head>
+<body>
+<div class="bar"><div class="in">
+  <a class="back" href="index.html">&larr; Portfolio</a>
+  <div class="tools">
+    <div class="sw" role="group" aria-label="Language"><button type="button" data-l="en" aria-pressed="true">English</button><button type="button" data-l="de" aria-pressed="false">Deutsch</button></div>
+    <a class="dl" id="dl" href="resume-en.pdf" download="CV-Ekaterina-Selivanova-EN.pdf"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 21h16"/></svg><span>Download PDF</span></a>
+  </div>
+</div></div>
+<div class="wrap">
+<div class="sheet" lang="en">
+<header class="top"><h1>Ekaterina Selivanova</h1><p class="sub"><b>Senior Product Designer</b><span>Berlin, Germany</span></p></header>
+<section class="r contact"><h2>Contact</h2><dl><div><dt>Email</dt><dd><a href="mailto:selivanova.uxui@gmail.com">selivanova.uxui@gmail.com</a></dd></div><div><dt>Phone</dt><dd><a href="tel:+491767268633">+49 176 726 83 633</a></dd></div><div><dt>Portfolio</dt><dd><a href="https://selivanova-portfolio.website" target="_blank" rel="noopener">selivanova-portfolio.website</a></dd></div></dl></section>
+<section class="r"><h2>Profile</h2><div class="prof"><p>I design digital products that make complicated things feel simple.</p><p>Over the past 10+ years, I’ve worked on eCommerce ecosystems at O2, omnichannel loyalty at KaDeWe, creative software at Xara, and fintech products for TWINT. My work spans research, product strategy, and hands-on design, from figuring out what needs to change to making it happen.</p><p>As AI changes how products are built and how they work, I stay focused on the people using them: what they need, where they hesitate, and what helps them feel in control.</p></div></section>
+<section class="r exp"><h2>Experience</h2><div class="jobs"><article class="job"><div class="when"><span class="pill">2025 – Present</span><small>Berlin, Germany</small></div><div class="what"><h3>Telefónica Deutschland (O2, Blau)</h3><p class="rl"><b>Senior UX Designer</b><span> · Telecommunications / Digital Commerce</span></p><ul><li><b>Lead UX design across the eCommerce purchase journey</b>, from product discovery and configuration to cart and checkout, aligning customer needs with commercial requirements.</li><li><b>Co-drove the UX strategy</b> and design direction for a future commerce vision, translating customer research and emerging AI behaviors into an interactive, conversation-led buying experience.</li><li>Led the <b>Sticky Bar 2.0 redesign</b> from concept through usability validation and delivery, improving the clarity of purchase actions and pricing information.</li><li>Contribute to a shared <b>multi-brand design system</b>, defining reusable patterns and maintaining UI consistency across O2 and Blau.</li><li><b>Partner with Product, Research, Engineering</b>, and business stakeholders to validate concepts, resolve complex UX challenges, and align design decisions.</li></ul></div></article><article class="job"><div class="when"><span class="pill">2023 – 2024</span><small>Zurich, Switzerland</small></div><div class="what"><h3>Modeso AG</h3><p class="rl"><b>Senior UX Designer</b><span> · Digital Product Agency / Fintech</span></p><ul><li><b>Led end-to-end UX/UI design</b> for digital products, from discovery and user research through prototyping, validation, and delivery.</li><li>Designed the <b>consumer-facing gamification experience for TWINT</b>, a Swiss payment app with <b>6M+ users</b>, balancing playful interactions, transparent reward mechanics, and sponsor visibility.</li><li>Redesigned <b>TWINT’s internal campaign-management tool</b>, simplifying complex configuration workflows through clearer information architecture, contextual previews, and improved status tracking.</li><li><b>Managed client relationships</b> and stakeholder alignment, translating business requirements into practical UX solutions.</li><li>Introduced <b>Figma design-system practices</b> to improve consistency across six concurrent projects.</li></ul></div></article><article class="job"><div class="when"><span class="pill">2022 – 2023</span><small>Berlin, Germany</small></div><div class="what"><h3>KaDeWe Group</h3><p class="rl"><b>Senior UX Designer</b><span> · Luxury Retail / Omnichannel eCommerce</span></p><ul><li>Led end-to-end UX/UI design of a <b>connected loyalty and eCommerce experience</b> across KaDeWe, Alsterhaus, and Oberpollinger. Conversion rose <b>+12%</b> during the online private-sale campaign after launch.</li><li><b>Simplified registration and account linking</b> for customers with different loyalty and eCommerce account histories, reaching <b>18% digital loyalty adoption</b> among existing members within six months.</li><li>Designed a <b>digital loyalty portal</b> with membership benefits, unified purchase history, digital receipts, and gift vouchers; digital vouchers reached a <b>20% redemption rate</b> during the Christmas campaign.</li><li>Validated concepts through <b>in-store customer testing</b> and collaborated with cross-functional teams through implementation.</li><li>Established the <b>group’s first shared design system</b> and introduced UI quality standards for external development partners.</li></ul></div></article><article class="job"><div class="when"><span class="pill">2017 – 2022</span><small>Berlin, Germany</small></div><div class="what"><h3>Xara GmbH</h3><p class="rl"><b>UX/UI Designer</b><span> · B2B SaaS / Cloud Document Editor</span></p><ul><li>Joined as the <b>first product designer</b>, establishing user-centered design practices and helping scale the product experience.</li><li>Led the <b>redesign of Xara’s cloud editor</b>, replacing complex tool navigation with contextual controls and a clearer, more focused editing workspace.</li><li>Improved <b>export completion from 33% to 41%</b> and <b>reduced average task time by 23%</b>, based on product analytics.</li><li>Established the product design system and conducted <b>100+ customer interviews</b> to inform product improvements.</li><li><b>Mentored two junior designers</b> and collaborated with Product and Engineering on feature prioritization and delivery.</li></ul></div></article></div></section>
+<section class="r"><h2>Skills</h2><div class="sk"><div><h4>Product Design</h4><ul><li>End-to-end UX/UI design</li><li>Interaction design</li><li>Complex user journeys</li><li>Design systems</li><li>Prototyping</li><li>UX writing</li></ul></div><div><h4>Strategy & Research</h4><ul><li>Product strategy and vision</li><li>User research</li><li>Usability testing</li><li>Journey mapping</li><li>A/B testing</li><li>Workshop facilitation</li></ul></div><div><h4>Leadership & Collaboration</h4><ul><li>Cross-functional collaboration</li><li>Stakeholder management</li><li>Design ownership</li><li>Mentoring</li><li>Design QA</li></ul></div></div></section>
+<section class="r"><h2>Education</h2><div class="ed"><div><h4>Accessibility for Designers</h4><p>Certificate, NTT DATA</p><p class="y">2025</p></div><div><h4>Communication Design</h4><p>Bachelor of Arts, SRH Berlin University of Applied Sciences</p><p class="y">2014 – 2016</p></div><div><h4>Humanities</h4><p>Studienkolleg, Freie Universität Berlin</p><p class="y">2013 – 2014</p></div></div></section>
+<section class="r"><h2>Languages</h2><div class="lg"><span class="pill"><b>English</b> Fluent</span><span class="pill"><b>German</b> Fluent</span><span class="pill"><b>Russian</b> Native</span><span class="pill"><b>Belarusian</b> Native</span><span class="pill"><b>French</b> Beginner</span></div></section>
+</div>
+<div class="sheet" lang="de">
+<header class="top"><h1>Ekaterina Selivanova</h1><p class="sub"><b>Senior Product Designer</b><span>Berlin, Deutschland</span></p></header>
+<section class="r contact"><h2>Kontakt</h2><dl><div><dt>E-Mail</dt><dd><a href="mailto:selivanova.uxui@gmail.com">selivanova.uxui@gmail.com</a></dd></div><div><dt>Telefon</dt><dd><a href="tel:+491767268633">+49 176 726 83 633</a></dd></div><div><dt>Portfolio</dt><dd><a href="https://selivanova-portfolio.website" target="_blank" rel="noopener">selivanova-portfolio.website</a></dd></div></dl></section>
+<section class="r"><h2>Profil</h2><div class="prof"><p>Ich gestalte digitale Produkte, die Kompliziertes einfach wirken lassen.</p><p>In den letzten über 10 Jahren habe ich an eCommerce-Ökosystemen bei O2, Omnichannel-Loyalty bei KaDeWe, kreativer Software bei Xara und Fintech-Produkten für TWINT gearbeitet. Meine Arbeit umfasst Research, Produktstrategie und praktisches Design, vom Erkennen, was sich ändern muss, bis zur Umsetzung.</p><p>Während KI verändert, wie Produkte entstehen und funktionieren, bleibe ich bei den Menschen, die sie nutzen: was sie brauchen, wo sie zögern und was ihnen das Gefühl gibt, die Kontrolle zu behalten.</p></div></section>
+<section class="r exp"><h2>Berufserfahrung</h2><div class="jobs"><article class="job"><div class="when"><span class="pill">2025 – heute</span><small>Berlin, Deutschland</small></div><div class="what"><h3>Telefónica Deutschland (O2, Blau)</h3><p class="rl"><b>Senior UX Designer</b><span> · Telekommunikation / Digital Commerce</span></p><ul><li><b>Leitung des UX-Designs über die gesamte eCommerce-Kaufreise</b>, von Produktentdeckung und Konfiguration bis zu Warenkorb und Checkout, damit Kundenbedürfnisse und kommerzielle Anforderungen zusammenpassen.</li><li><b>Mitgestaltung der UX-Strategie</b> und Designrichtung für eine zukünftige Commerce-Vision: Kundenforschung und neue KI-Verhaltensweisen in ein interaktives, dialogbasiertes Kauferlebnis übersetzt.</li><li>Leitung des <b>Redesigns der Sticky Bar 2.0</b> vom Konzept über die Usability-Validierung bis zur Umsetzung; Kaufaktionen und Preisinformationen sind dadurch klarer.</li><li>Mitarbeit an einem gemeinsamen <b>Multi-Brand-Designsystem</b>: Definition wiederverwendbarer Muster und konsistente Oberflächen über O2 und Blau hinweg.</li><li><b>Zusammenarbeit mit Product, Research, Engineering</b> und Fachbereichen, um Konzepte zu validieren, komplexe UX-Herausforderungen zu lösen und Designentscheidungen abzustimmen.</li></ul></div></article><article class="job"><div class="when"><span class="pill">2023 – 2024</span><small>Zürich, Schweiz</small></div><div class="what"><h3>Modeso AG</h3><p class="rl"><b>Senior UX Designer</b><span> · Digitale Produktagentur / Fintech</span></p><ul><li><b>Leitung des End-to-End-UX/UI-Designs</b> digitaler Produkte, von Discovery und User Research über Prototyping und Validierung bis zur Umsetzung.</li><li>Gestaltung des <b>Gamification-Erlebnisses für Endkund:innen bei TWINT</b>, einer Schweizer Zahlungs-App mit <b>über 6 Mio. Nutzer:innen</b>, im Gleichgewicht zwischen spielerischen Interaktionen, transparenten Belohnungsmechaniken und Sichtbarkeit für Sponsoren.</li><li>Redesign des <b>internen Kampagnen-Management-Tools von TWINT</b>: komplexe Konfigurationsabläufe vereinfacht durch klarere Informationsarchitektur, kontextbezogene Vorschauen und besseres Status-Tracking.</li><li><b>Steuerung der Kundenbeziehungen</b> und Abstimmung mit Stakeholdern; Business-Anforderungen in praxistaugliche UX-Lösungen übersetzt.</li><li>Einführung von <b>Figma-Designsystem-Praktiken</b> für mehr Konsistenz über sechs parallele Projekte.</li></ul></div></article><article class="job"><div class="when"><span class="pill">2022 – 2023</span><small>Berlin, Deutschland</small></div><div class="what"><h3>KaDeWe Group</h3><p class="rl"><b>Senior UX Designer</b><span> · Luxus-Einzelhandel / Omnichannel-eCommerce</span></p><ul><li>Leitung des End-to-End-UX/UI-Designs eines <b>verbundenen Loyalty- und eCommerce-Erlebnisses</b> für KaDeWe, Alsterhaus und Oberpollinger. Die Conversion stieg nach dem Launch während der Online-Private-Sale-Kampagne um <b>+12 %</b>.</li><li><b>Vereinfachte Registrierung und Kontoverknüpfung</b> für Kund:innen mit unterschiedlichen Loyalty- und eCommerce-Kontohistorien; <b>18 % digitale Loyalty-Nutzung</b> unter bestehenden Mitgliedern innerhalb von sechs Monaten.</li><li>Gestaltung eines <b>digitalen Loyalty-Portals</b> mit Mitgliedervorteilen, einheitlicher Kaufhistorie, digitalen Belegen und Geschenkgutscheinen; digitale Gutscheine erreichten während der Weihnachtskampagne eine <b>Einlösequote von 20 %</b>.</li><li>Validierung von Konzepten durch <b>Kundentests im Geschäft</b> und Zusammenarbeit mit funktionsübergreifenden Teams bis zur Umsetzung.</li><li>Aufbau des <b>ersten gemeinsamen Designsystems der Gruppe</b> und Einführung von UI-Qualitätsstandards für externe Entwicklungspartner.</li></ul></div></article><article class="job"><div class="when"><span class="pill">2017 – 2022</span><small>Berlin, Deutschland</small></div><div class="what"><h3>Xara GmbH</h3><p class="rl"><b>UX/UI Designer</b><span> · B2B SaaS / Cloud-Dokumenteditor</span></p><ul><li>Einstieg als <b>erste Produktdesignerin</b>; Aufbau nutzerzentrierter Designpraktiken und Beitrag zur Skalierung des Produkterlebnisses.</li><li>Leitung des <b>Redesigns von Xaras Cloud-Editor</b>: komplexe Werkzeugnavigation durch kontextbezogene Steuerelemente und einen klareren, fokussierteren Arbeitsbereich ersetzt.</li><li>Verbesserung der <b>Export-Abschlussrate von 33 % auf 41 %</b> und <b>Senkung der durchschnittlichen Aufgabendauer um 23 %</b>, gemessen mit Produktanalytics.</li><li>Aufbau des Produkt-Designsystems und Durchführung von <b>über 100 Kundeninterviews</b> zur Verbesserung des Produkts.</li><li><b>Mentoring von zwei Junior-Designer:innen</b> sowie Zusammenarbeit mit Product und Engineering bei Priorisierung und Umsetzung von Features.</li></ul></div></article></div></section>
+<section class="r"><h2>Kompetenzen</h2><div class="sk"><div><h4>Produktdesign</h4><ul><li>End-to-End-UX/UI-Design</li><li>Interaction Design</li><li>Komplexe User Journeys</li><li>Designsysteme</li><li>Prototyping</li><li>UX Writing</li></ul></div><div><h4>Strategie & Research</h4><ul><li>Produktstrategie und -vision</li><li>User Research</li><li>Usability-Tests</li><li>Journey Mapping</li><li>A/B-Tests</li><li>Workshop-Moderation</li></ul></div><div><h4>Führung & Zusammenarbeit</h4><ul><li>Funktionsübergreifende Zusammenarbeit</li><li>Stakeholder-Management</li><li>Design Ownership</li><li>Mentoring</li><li>Design QA</li></ul></div></div></section>
+<section class="r"><h2>Ausbildung</h2><div class="ed"><div><h4>Accessibility for Designers</h4><p>Zertifikat, NTT DATA</p><p class="y">2025</p></div><div><h4>Kommunikationsdesign</h4><p>Bachelor of Arts, SRH Berlin University of Applied Sciences</p><p class="y">2014 – 2016</p></div><div><h4>Geisteswissenschaften</h4><p>Studienkolleg, Freie Universität Berlin</p><p class="y">2013 – 2014</p></div></div></section>
+<section class="r"><h2>Sprachen</h2><div class="lg"><span class="pill"><b>Englisch</b> fließend</span><span class="pill"><b>Deutsch</b> fließend</span><span class="pill"><b>Russisch</b> Muttersprache</span><span class="pill"><b>Belarussisch</b> Muttersprache</span><span class="pill"><b>Französisch</b> Grundkenntnisse</span></div></section>
+</div>
+</div>
+<script>(function(){
+  var de=/^de/i.test(navigator.language||''),h=(location.hash||'').replace('#','').toLowerCase(),q=(location.search.match(/lang=(en|de)/)||[])[1];
+  var cur=(h==='de'||h==='en')?h:(q||(de?'de':'en'));
+  var dl=document.getElementById('dl'),btns=[].slice.call(document.querySelectorAll('.sw button'));
+  var T={en:{t:'Resume – Ekaterina Selivanova',d:'Download PDF',f:'resume-en.pdf',n:'CV-Ekaterina-Selivanova-EN.pdf'},de:{t:'Lebenslauf – Ekaterina Selivanova',d:'PDF herunterladen',f:'resume-de.pdf',n:'Lebenslauf-Ekaterina-Selivanova-DE.pdf'}};
+  function set(l,push){cur=l;document.documentElement.dataset.lang=l;document.documentElement.lang=l;document.title=T[l].t;
+    dl.querySelector('span').textContent=T[l].d;dl.href=T[l].f;dl.setAttribute('download',T[l].n);
+    btns.forEach(function(b){b.setAttribute('aria-pressed',String(b.dataset.l===l))});
+    if(push&&history.replaceState)history.replaceState(null,'','#'+l)}
+  btns.forEach(function(b){b.addEventListener('click',function(){set(b.dataset.l,true)})});
+  if(window.claude&&claude.use){claude.use('downloads').then(function(d){if(!d)return;dl.addEventListener('click',function(e){e.preventDefault();fetch(dl.getAttribute('href')).then(function(r){if(!r.ok)throw 0;return r.blob()}).then(function(b){return d.save({filename:T[cur].n,data:b})}).catch(function(err){if(!(err&&err.code==='declined'))window.open(dl.href,'_blank','noopener')})})}).catch(function(){})}
+  set(cur,false);
+})();</script>
+</body>
+</html>
